@@ -2,14 +2,11 @@
   "name": "jmax",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rafaeldallaqyan2000.github.io/JMAX-MASTER-NextJs/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "deploy": "gh-pages -d build",
-    "predeploy": "npm run build"
+    "lint": "next lint"
   },
   "dependencies": {
     "@react-three/drei": "^9.74.8",
